@@ -1,0 +1,4 @@
+row_number,feature,value,z_score,severity,reason,recommendation
+52,income,1000000.0,7.2762,CRITICAL,"income has a value of 1000000.00, which is higher than the normal dataset distribution.",Verify the original data source and investigate this record for possible data-entry or data-quality errors.
+53,score,200.0,6.5875,CRITICAL,"score has a value of 200.00, which is higher than the normal dataset distribution.",Verify the original data source and investigate this record for possible data-entry or data-quality errors.
+54,study_hours,50.0,7.0684,CRITICAL,"study_hours has a value of 50.00, which is higher than the normal dataset distribution.",Verify the original data source and investigate this record for possible data-entry or data-quality errors.

@@ -1,0 +1,7 @@
+feature,missing_values,missing_rate,mean,std,min,max,unique_values,quality_risk,recommendation
+id,0,0.0,28.0,16.020819787597222,1.0,55.0,55,0,No major quality issue detected.
+age,0,0.0,21.945454545454545,1.2969791371316972,20.0,24.0,5,0,No major quality issue detected.
+income,0,0.0,51054.545454545456,130416.8414172515,25000.0,1000000.0,32,0,No major quality issue detected.
+score,0,0.0,86.54545454545455,17.22274355678838,69.0,200.0,27,0,No major quality issue detected.
+study_hours,0,0.0,5.963636363636364,6.230045586788914,3.0,50.0,8,0,No major quality issue detected.
+is_anomaly,0,0.0,0.05454545454545454,0.2291838836507762,0.0,1.0,2,0,No major quality issue detected.

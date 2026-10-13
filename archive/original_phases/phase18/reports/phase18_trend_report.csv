@@ -1,0 +1,2 @@
+quality_trend,quality_slope,anomaly_trend,anomaly_slope,drift_trend,drift_slope,alert_trend,alert_slope,overall_trend
+IMPROVING,0.412,DECLINING,-0.5,DECLINING,-0.3,DECLINING,-0.2,STABLE

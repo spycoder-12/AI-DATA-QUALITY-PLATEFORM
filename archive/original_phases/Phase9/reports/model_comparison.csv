@@ -1,0 +1,4 @@
+model,anomalies_detected
+Z-Score,3
+IQR,3
+Isolation Forest,6

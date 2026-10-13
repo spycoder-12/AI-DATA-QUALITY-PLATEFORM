@@ -1,0 +1,373 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Arial,
+        sans-serif;
+
+    background:
+        #f4f7fb;
+
+    color:
+        #172033;
+}
+
+
+.container {
+
+    width: 92%;
+
+    max-width: 1200px;
+
+    margin:
+        30px auto;
+}
+
+
+header {
+
+    text-align: center;
+
+    margin-bottom:
+        30px;
+}
+
+
+header h1 {
+
+    margin-bottom:
+        10px;
+}
+
+
+header p {
+
+    color:
+        #687386;
+}
+
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+
+.upload-card,
+.card,
+.dashboard,
+.result-card {
+
+    background:
+        white;
+
+    border-radius:
+        16px;
+
+    padding:
+        25px;
+
+    margin-bottom:
+        25px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(
+            0,
+            0,
+            0,
+            0.07
+        );
+}
+
+
+/* ============================================================
+   UPLOAD
+   ============================================================ */
+
+.upload-card {
+
+    text-align:
+        center;
+}
+
+
+input[type="file"] {
+
+    display:
+        block;
+
+    width:
+        100%;
+
+    margin:
+        20px 0;
+
+    padding:
+        14px;
+
+    border:
+        2px dashed #cbd5e1;
+
+    border-radius:
+        10px;
+
+    background:
+        #f8fafc;
+}
+
+
+button {
+
+    border:
+        none;
+
+    padding:
+        12px 20px;
+
+    border-radius:
+        8px;
+
+    cursor:
+        pointer;
+
+    background:
+        #2563eb;
+
+    color:
+        white;
+
+    font-weight:
+        bold;
+}
+
+
+button:hover {
+
+    opacity:
+        0.9;
+}
+
+
+.status {
+
+    margin-top:
+        15px;
+
+    font-weight:
+        bold;
+}
+
+
+/* ============================================================
+   METRICS
+   ============================================================ */
+
+.metrics {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                160px,
+                1fr
+            )
+        );
+
+    gap:
+        15px;
+}
+
+
+.metric {
+
+    padding:
+        20px;
+
+    border-radius:
+        12px;
+
+    background:
+        #f8fafc;
+
+    text-align:
+        center;
+}
+
+
+.metric span {
+
+    display:
+        block;
+
+    color:
+        #687386;
+
+    margin-bottom:
+        8px;
+}
+
+
+.metric strong {
+
+    font-size:
+        25px;
+}
+
+
+/* ============================================================
+   ALERT
+   ============================================================ */
+
+.alert {
+
+    border-left:
+        5px solid #f59e0b;
+
+    background:
+        #fffbeb;
+
+    padding:
+        15px;
+
+    margin-bottom:
+        12px;
+
+    border-radius:
+        8px;
+}
+
+
+.alert strong {
+
+    margin-right:
+        10px;
+}
+
+
+/* ============================================================
+   UPLOAD HISTORY
+   ============================================================ */
+
+.upload-item {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    gap:
+        20px;
+
+    padding:
+        15px;
+
+    margin-bottom:
+        10px;
+
+    background:
+        #f8fafc;
+
+    border-radius:
+        10px;
+}
+
+
+.upload-item p {
+
+    margin:
+        6px 0 0;
+
+    color:
+        #687386;
+}
+
+
+/* ============================================================
+   HIDDEN
+   ============================================================ */
+
+.hidden {
+
+    display:
+        none;
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (
+    max-width: 700px
+) {
+
+    .container {
+
+        width:
+            95%;
+    }
+
+
+    .upload-item {
+
+        flex-direction:
+            column;
+
+        align-items:
+            flex-start;
+    }
+
+}
+
+/* ============================================================
+   SECTION HEADING / HISTORY ACTIONS
+   ============================================================ */
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-heading h2 {
+    margin-bottom: 6px;
+}
+
+.section-heading p {
+    margin-top: 0;
+    color: #687386;
+}
+
+.history-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.danger-button {
+    background: #dc2626;
+}
+
+.danger-button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 700px) {
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

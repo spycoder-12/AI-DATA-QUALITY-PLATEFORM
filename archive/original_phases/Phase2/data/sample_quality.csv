@@ -1,0 +1,16 @@
+id,name,age,income,city,score,gender
+1,Rahul,21,25000,Lucknow,78,M
+2,Amit,22,32000,Delhi,85,M
+3,Nitin,-5,28000,Kanpur,72,M
+4,Priya,23,35000,Lucknow,105,F
+5,Anjali,21,,Delhi,88,F
+6,Ravi,200,27000,Kanpur,69,M
+7,Neha,24,40000,Lucknow,95,F
+8,Arjun,22,33000,Delhi,81,M
+9,Simran,20,29000,Kanpur,75,F
+10,Vikas,23,38000,Lucknow,89,M
+10,Vikas,23,38000,Lucknow,89,M
+11,Aman,22,-5000,Delhi,82,X
+12,Riya,21,31000,Delhi,90,F
+13,Sumit,22,30000,Delhi,88,M
+14,Pooja,23,34000,Lucknow,92,F

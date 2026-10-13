@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        AI Data Quality Engine
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        🛡️ AI Data Quality Engine
+    </div>
+
+    <div class="status">
+        ● API Online
+    </div>
+
+</header>
+
+
+<main class="container">
+
+    <section class="hero">
+
+        <h1>
+            AI-Powered Data Quality
+            & Anomaly Detection
+        </h1>
+
+        <p>
+            Upload your CSV dataset and let
+            our AI engine identify unusual
+            patterns and data quality issues.
+        </p>
+
+    </section>
+
+
+    <!-- UPLOAD -->
+
+    <section class="upload-card">
+
+        <div class="upload-icon">
+            📁
+        </div>
+
+        <h2>
+            Upload Dataset
+        </h2>
+
+        <p>
+            Supported format: CSV
+        </p>
+
+        <input
+            type="file"
+            id="fileInput"
+            accept=".csv"
+        >
+
+        <button
+            id="analyzeButton"
+        >
+            Analyze Dataset
+        </button>
+
+        <div
+            id="loading"
+            class="loading hidden"
+        >
+            Analyzing your dataset...
+        </div>
+
+    </section>
+
+
+    <!-- DASHBOARD -->
+
+    <section
+        id="dashboard"
+        class="hidden"
+    >
+
+        <h2>
+            Dataset Overview
+        </h2>
+
+
+        <div class="stats">
+
+            <div class="stat-card">
+                <span id="rows">
+                    0
+                </span>
+                <small>Rows</small>
+            </div>
+
+            <div class="stat-card">
+                <span id="columns">
+                    0
+                </span>
+                <small>Columns</small>
+            </div>
+
+            <div class="stat-card">
+                <span id="anomalies">
+                    0
+                </span>
+                <small>Anomalies</small>
+            </div>
+
+            <div class="stat-card">
+                <span id="missing">
+                    0
+                </span>
+                <small>Missing Values</small>
+            </div>
+
+        </div>
+
+
+        <div class="panel">
+
+            <h2>
+                Anomaly Detection
+            </h2>
+
+            <div
+                id="severity"
+                class="severity-container"
+            >
+            </div>
+
+        </div>
+
+
+        <div class="panel">
+
+            <h2>
+                Detected Anomalies
+            </h2>
+
+            <div
+                id="anomalyTable"
+            >
+            </div>
+
+        </div>
+
+
+        <div class="panel">
+
+            <h2>
+                💡 AI Recommendations
+            </h2>
+
+            <div
+                id="recommendations"
+            >
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script
+    src="/static/app.js"
+></script>
+
+</body>
+
+</html>

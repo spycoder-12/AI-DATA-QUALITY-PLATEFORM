@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1_score,true_negative,false_positive,false_negative,true_positive,execution_time
+Z-Score,1.0,1.0,1.0,1.0,52,0,0,3,0.004004
+IQR,1.0,1.0,1.0,1.0,52,0,0,3,0.009221
+Isolation Forest,0.9455,0.5,1.0,0.6667,49,3,0,3,0.21914

@@ -1,0 +1,4 @@
+model,anomaly_count
+Isolation Forest,6
+Local Outlier Factor,3
+One-Class SVM,5

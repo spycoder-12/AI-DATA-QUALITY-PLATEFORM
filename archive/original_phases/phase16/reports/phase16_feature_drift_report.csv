@@ -1,0 +1,5 @@
+feature,reference_mean,current_mean,mean_change_percentage,reference_median,current_median,reference_std,current_std,psi,ks_statistic,ks_p_value,drift_status,risk
+age,21.9455,21.9455,0.0,22.0,22.0,1.297,1.297,0.0,0.0,1.0,NO DRIFT,LOW
+income,51054.5455,51054.5455,0.0,33000.0,33000.0,130416.8414,130416.8414,0.0,0.0,1.0,NO DRIFT,LOW
+score,86.5455,86.5455,0.0,85.0,85.0,17.2227,17.2227,0.0,0.0,1.0,NO DRIFT,LOW
+study_hours,5.9636,5.9636,0.0,5.0,5.0,6.23,6.23,0.0,0.0,1.0,NO DRIFT,LOW

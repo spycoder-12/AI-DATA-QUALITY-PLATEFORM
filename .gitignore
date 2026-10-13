@@ -1,0 +1,27 @@
+# secrets / environment
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# runtime data (uploads, cleaned files, reports, local database)
+data/uploads/*
+data/processed/*
+data/reports/*
+data/*.db
+data/*.db-*
+!data/**/.gitkeep
+
+# misc
+.DS_Store
+.idea/
+.vscode/
+
+README.zip

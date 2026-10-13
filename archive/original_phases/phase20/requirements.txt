@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+numpy
+scipy
+sqlalchemy
+psycopg2-binary
+python-dotenv
+python-multipart
+openpyxl
+xlrd
+pdfplumber

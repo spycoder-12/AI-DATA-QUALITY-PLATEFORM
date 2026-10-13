@@ -1,0 +1,29 @@
+# AI Data Quality Intelligence Platform - single consolidated requirements file.
+# Python 3.10+  (developed and tested on 3.12).  Install:  pip install -r requirements.txt
+
+# --- web / API
+fastapi>=0.110,<1.0
+uvicorn>=0.27
+python-multipart>=0.0.9        # file uploads
+pydantic>=2.6,<3
+python-dotenv>=1.0
+
+# --- database (SQLite works out of the box; for PostgreSQL also: pip install psycopg2-binary)
+sqlalchemy>=2.0,<3
+
+# --- data + machine learning
+pandas>=2.2,<4
+numpy>=1.26,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+
+# --- file formats
+openpyxl>=3.1                  # .xlsx
+xlrd>=2.0.1                    # .xls
+pdfplumber>=0.10               # PDF tables
+
+# --- testing (only needed to run `pytest`)
+pytest>=8.0
+httpx>=0.27                    # FastAPI TestClient
+xlwt>=1.3                      # builds a legacy .xls file in the upload test
+reportlab>=4.0                 # builds a PDF table in the upload test

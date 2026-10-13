@@ -1,0 +1,2 @@
+rows,columns,missing_values,duplicate_rows,completeness,anomalies,drifted_features,features_monitored,quality_score,alerts,status,risk
+55,6,0,0,100.0,3,0,4,98.91,1,WARNING,MEDIUM

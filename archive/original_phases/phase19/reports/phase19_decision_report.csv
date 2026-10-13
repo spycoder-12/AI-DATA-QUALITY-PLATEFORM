@@ -1,0 +1,2 @@
+quality_score,anomaly_count,drifted_features,alert_count,current_status,current_risk,forecast_quality,forecast_risk,forecast_risk_level,quality_trend,anomaly_trend,drift_trend,alert_trend,overall_trend,risk_score,decision_risk,priority,decision,automation,recommended_action
+98.91,3,0,1,WARNING,MEDIUM,98.91,1.0900000000000034,LOW,0.412,-0.5,-0.3,-0.2,STABLE,15.0,LOW,P4 - LOW,DATASET HEALTHY,NO REMEDIATION REQUIRED,Dataset is suitable for analysis. Continue routine monitoring.

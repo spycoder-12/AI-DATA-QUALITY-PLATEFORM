@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        AI Data Quality Intelligence Platform
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <h1>
+            AI Data Quality Intelligence Platform
+        </h1>
+
+        <p>
+            Unified AI-powered data quality,
+            anomaly detection and monitoring system
+        </p>
+
+    </header>
+
+
+    <!-- ================================================= -->
+    <!-- UPLOAD -->
+    <!-- ================================================= -->
+
+    <section class="upload-card">
+
+        <h2>
+            Upload Dataset
+        </h2>
+
+        <p>
+            Supported formats:
+            CSV, Excel and PDF
+        </p>
+
+        <input
+            type="file"
+            id="datasetFile"
+            accept=".csv,.xlsx,.xls,.pdf"
+        >
+
+        <button
+            id="uploadButton"
+        >
+            Analyze Dataset
+        </button>
+
+        <div
+            id="uploadStatus"
+            class="status"
+        ></div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- RESULT -->
+    <!-- ================================================= -->
+
+    <section
+        id="uploadResult"
+        class="result-card hidden"
+    >
+
+        <h2>
+            Dataset Analysis
+        </h2>
+
+        <div class="metrics">
+
+            <div class="metric">
+
+                <span>
+                    Quality Score
+                </span>
+
+                <strong id="resultQuality">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="metric">
+
+                <span>
+                    Anomalies
+                </span>
+
+                <strong id="resultAnomalies">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="metric">
+
+                <span>
+                    Missing Values
+                </span>
+
+                <strong id="resultMissing">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="metric">
+
+                <span>
+                    Duplicates
+                </span>
+
+                <strong id="resultDuplicates">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="metric">
+
+                <span>
+                    Risk
+                </span>
+
+                <strong id="resultRisk">
+                    -
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <h3>
+            AI Recommendations
+        </h3>
+
+        <ul id="recommendations"></ul>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- DASHBOARD -->
+    <!-- ================================================= -->
+
+    <section class="dashboard">
+
+        <h2>
+            Platform Dashboard
+        </h2>
+
+
+        <div class="metrics">
+
+            <div class="metric">
+
+                <span>
+                    Quality Score
+                </span>
+
+                <strong id="qualityScore">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="metric">
+
+                <span>
+                    Anomalies
+                </span>
+
+                <strong id="anomalyCount">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="metric">
+
+                <span>
+                    Drifted Features
+                </span>
+
+                <strong id="driftedFeatures">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="metric">
+
+                <span>
+                    Alerts
+                </span>
+
+                <strong id="alertCount">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="metric">
+
+                <span>
+                    Risk
+                </span>
+
+                <strong id="riskLevel">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="metric">
+
+                <span>
+                    Trend
+                </span>
+
+                <strong id="overallTrend">
+                    -
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- ALERTS -->
+    <!-- ================================================= -->
+
+    <section class="card">
+
+        <h2>
+            Active Alerts
+        </h2>
+
+        <div id="alerts">
+
+            Loading...
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- MONITORING HISTORY -->
+    <!-- ================================================= -->
+
+    <section class="card">
+
+        <div class="section-heading">
+            <div>
+                <h2>Monitoring History</h2>
+                <p>Historical dashboard snapshots stored in PostgreSQL.</p>
+            </div>
+
+            <div class="history-actions">
+                <button onclick="saveMonitoringSnapshot()">
+                    Save Current Snapshot
+                </button>
+
+                <button
+                    class="danger-button"
+                    onclick="deleteAllMonitoringHistory()"
+                >
+                    Delete All History
+                </button>
+            </div>
+        </div>
+
+        <div id="monitoringHistory">
+            Loading...
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- UPLOAD HISTORY -->
+    <!-- ================================================= -->
+
+    <section class="card">
+
+        <h2>
+            Uploaded Datasets
+        </h2>
+
+        <div id="uploadHistory">
+
+            Loading...
+
+        </div>
+
+    </section>
+
+</div>
+
+
+<script
+    src="/static/app.js"
+></script>
+
+</body>
+
+</html>

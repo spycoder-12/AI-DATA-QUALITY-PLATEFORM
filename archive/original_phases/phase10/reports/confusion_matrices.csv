@@ -1,0 +1,4 @@
+model,true_negative,false_positive,false_negative,true_positive
+Z-Score,52,0,0,3
+IQR,52,0,0,3
+Isolation Forest,49,3,0,3

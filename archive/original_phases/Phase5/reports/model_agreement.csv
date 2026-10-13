@@ -1,0 +1,6 @@
+,IQR,Z-Score,Isolation Forest,Local Outlier Factor,One-Class SVM
+IQR,1.0,1.0,1.0,1.0,0.8909
+Z-Score,1.0,1.0,1.0,1.0,0.8909
+Isolation Forest,1.0,1.0,1.0,1.0,0.8909
+Local Outlier Factor,1.0,1.0,1.0,1.0,0.8909
+One-Class SVM,0.8909,0.8909,0.8909,0.8909,1.0

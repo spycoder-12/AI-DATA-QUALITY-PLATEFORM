@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Data Quality Intelligence Platform</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><span class="logo">◈</span><div><b>DataQuality AI</b><small>Intelligence Platform</small></div></div>
+      <nav id="nav"></nav>
+      <div class="sidebar-foot"><span id="dbStatus" class="dot"></span><small id="dbText">checking…</small></div>
+    </aside>
+    <div class="main">
+      <header class="topbar">
+        <button class="icon-btn menu" id="menuBtn" aria-label="Menu">☰</button>
+        <div class="crumb"><span id="pageTitle">Dashboard</span><small id="pageSub"></small></div>
+        <div class="top-actions">
+          <select id="analysisPicker" title="Choose analysis"></select>
+          <a class="btn primary" href="#/upload">＋ Upload dataset</a>
+        </div>
+      </header>
+      <main id="view" class="view" aria-live="polite"></main>
+    </div>
+  </div>
+  <div id="overlay" class="overlay hidden"><div class="modal">
+    <h3 id="ovTitle">Analyzing dataset…</h3>
+    <div class="progress"><div id="ovBar"></div></div>
+    <p id="ovStep" class="muted">Starting…</p>
+  </div></div>
+  <div id="toasts"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

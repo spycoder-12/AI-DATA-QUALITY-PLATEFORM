@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        AI Data Quality & Anomaly Detection
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+
+        <header>
+
+            <h1>
+                AI Data Quality & Anomaly Detection Engine
+            </h1>
+
+            <p>
+                Upload your CSV dataset and let AI analyze
+                data quality and detect anomalies.
+            </p>
+
+        </header>
+
+
+        <!-- UPLOAD SECTION -->
+
+        <section class="card">
+
+            <h2>
+                Upload Dataset
+            </h2>
+
+            <input
+                type="file"
+                id="fileInput"
+                accept=".csv"
+            >
+
+            <button
+                id="analyzeBtn"
+            >
+                Analyze Dataset
+            </button>
+
+            <p id="status"></p>
+
+        </section>
+
+
+        <!-- RESULTS -->
+
+        <section
+            id="results"
+            class="hidden"
+        >
+
+            <h2>
+                Analysis Results
+            </h2>
+
+
+            <!-- SUMMARY -->
+
+            <div class="summary-grid">
+
+                <div class="stat">
+
+                    <span>
+                        Rows
+                    </span>
+
+                    <strong id="rows">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span>
+                        Columns
+                    </span>
+
+                    <strong id="columns">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span>
+                        Missing Values
+                    </span>
+
+                    <strong id="missing">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span>
+                        Duplicate Rows
+                    </span>
+
+                    <strong id="duplicates">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <span>
+                        Anomalies
+                    </span>
+
+                    <strong id="anomaliesCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- ANOMALIES -->
+
+            <div class="card">
+
+                <h2>
+                    Detected Anomalies
+                </h2>
+
+                <div id="anomalyContainer">
+
+                    <p>
+                        No anomalies detected.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HISTORY -->
+
+        <section class="card">
+
+            <h2>
+                Analysis History
+            </h2>
+
+            <button
+                id="historyBtn"
+            >
+                Load History
+            </button>
+
+            <div id="historyContainer"></div>
+
+        </section>
+
+    </div>
+
+
+    <script src="/static/app.js"></script>
+
+</body>
+
+</html>

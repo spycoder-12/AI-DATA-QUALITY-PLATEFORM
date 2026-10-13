@@ -1,0 +1,2 @@
+total_rows,total_columns,missing_values,missing_rate,missing_score,duplicate_rows,duplicate_rate,duplicate_score,columns_with_missing,completeness_score,overall_score,anomaly_count,anomaly_penalty,final_score,quality_level,risk_level,decision,recommended_action
+55,6,0,0.0,100.0,0,0.0,100.0,0,100.0,100,3,1.64,98.36,EXCELLENT,LOW,Dataset is ready for analysis.,No major data-quality action required.

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width,
+        initial-scale=1.0"
+    >
+
+    <title>
+        AI Data Quality Dashboard
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/chart.js"
+    ></script>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <!-- ========================================= -->
+    <!-- HEADER -->
+    <!-- ========================================= -->
+
+    <header>
+
+        <div>
+
+            <h1>
+                AI Data Quality
+            </h1>
+
+            <p>
+                Anomaly Detection &
+                Analytics Dashboard
+            </p>
+
+        </div>
+
+        <div
+            id="status"
+            class="status"
+        >
+            Checking...
+        </div>
+
+    </header>
+
+
+    <!-- ========================================= -->
+    <!-- STATISTICS -->
+    <!-- ========================================= -->
+
+    <section class="cards">
+
+        <div class="card">
+
+            <h3>
+                Total Analyses
+            </h3>
+
+            <span id="totalAnalyses">
+                0
+            </span>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Rows Processed
+            </h3>
+
+            <span id="totalRows">
+                0
+            </span>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Anomalies
+            </h3>
+
+            <span id="totalAnomalies">
+                0
+            </span>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Missing Values
+            </h3>
+
+            <span id="totalMissing">
+                0
+            </span>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Duplicate Rows
+            </h3>
+
+            <span id="totalDuplicates">
+                0
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================= -->
+    <!-- CHARTS -->
+    <!-- ========================================= -->
+
+    <section class="charts">
+
+        <div class="chart-card">
+
+            <h2>
+                Anomaly Severity
+            </h2>
+
+            <canvas
+                id="severityChart"
+            ></canvas>
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h2>
+                Anomalies by Feature
+            </h2>
+
+            <canvas
+                id="featureChart"
+            ></canvas>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================= -->
+    <!-- HISTORY -->
+    <!-- ========================================= -->
+
+    <section class="table-section">
+
+        <h2>
+            Analysis History
+        </h2>
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>ID</th>
+
+                        <th>Filename</th>
+
+                        <th>Rows</th>
+
+                        <th>Columns</th>
+
+                        <th>Missing</th>
+
+                        <th>Duplicates</th>
+
+                        <th>Anomalies</th>
+
+                        <th>Date</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody
+                    id="historyTable"
+                >
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================= -->
+    <!-- ANOMALIES -->
+    <!-- ========================================= -->
+
+    <section class="table-section">
+
+        <h2>
+            Recent Anomalies
+        </h2>
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>File</th>
+
+                        <th>Row</th>
+
+                        <th>Feature</th>
+
+                        <th>Value</th>
+
+                        <th>Z-Score</th>
+
+                        <th>Severity</th>
+
+                        <th>Recommendation</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody
+                    id="anomalyTable"
+                >
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+<script
+    src="/static/app.js"
+></script>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+model,anomaly_count,execution_time_seconds,accuracy,precision,recall,f1_score
+IQR,3,0.135228,1.0,1.0,1.0,1.0
+Z-Score,3,0.005591,1.0,1.0,1.0,1.0
+Isolation Forest,3,0.125029,1.0,1.0,1.0,1.0
+Local Outlier Factor,3,0.00124,1.0,1.0,1.0,1.0
+One-Class SVM,5,0.001737,0.8909,0.2,0.3333,0.25

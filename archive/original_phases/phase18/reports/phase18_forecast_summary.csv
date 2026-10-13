@@ -1,0 +1,2 @@
+historical_records,current_quality_score,forecast_quality_score,current_risk_score,forecast_risk_score,forecast_risk_level,overall_trend
+5,98.91,100,1.09,0,LOW,STABLE
