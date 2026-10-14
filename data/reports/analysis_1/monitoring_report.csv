@@ -1,2 +1,0 @@
-analysis_id,dataset_id,dataset,timestamp,quality_score,anomaly_count,anomaly_pct,critical_count,drifted_features,alert_count,rows,risk_score,risk_level,decision,status
-1,1,insurance_data - insurance_data.csv,2026-10-04T06:11:31Z,99.98,116,8.66,0,,2,1340,15.0,LOW,DATASET HEALTHY,HEALTHY

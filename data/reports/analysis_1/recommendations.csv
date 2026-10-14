@@ -1,6 +1,0 @@
-category,severity,priority,target,finding,recommendation,evidence,automated_fix
-Anomalies,HIGH,P2,bloodpressure,54 anomalous record(s) driven by 'bloodpressure' (23 high).,Investigate the source data and validate business rules. Check the original source and validate the value against business rules.,"rows [1163, 1212, 1227, 1244, 1292]",
-Anomalies,HIGH,P2,bmi,28 anomalous record(s) driven by 'bmi' (4 high).,Investigate the source data and validate business rules. Check the original source and validate the value against business rules.,"rows [11, 1301, 143, 804, 677]",
-Missing values,LOW,P4,"age, region","Small amounts of missing data in: age (0.37%), region (0.22%).",Review affected rows; simple median (numeric) or mode (categorical) imputation is usually adequate at these levels.,,impute_missing
-Anomalies,LOW,P4,claim,19 anomalous record(s) driven by 'claim'.,Investigate the source data and validate business rules. Check the original source and validate the value against business rules.,"rows [5, 9, 10, 27, 14]",
-Anomalies,LOW,P4,age,15 anomalous record(s) driven by 'age'.,Investigate the source data and validate business rules. Verify the person's age and look for data-entry or unit errors.,"rows [65, 180, 202, 536, 774]",

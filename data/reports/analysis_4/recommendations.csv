@@ -1,2 +1,0 @@
-category,severity,priority,target,finding,recommendation,evidence,automated_fix
-Data volume,MEDIUM,P3,dataset,Only 2 row(s) available.,Collect more records before drawing conclusions; machine-learning anomaly detection needs at least 20 rows.,rows = 2,

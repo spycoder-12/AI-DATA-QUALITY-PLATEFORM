@@ -1,6 +1,0 @@
-column,dtype,kind,missing,missing_pct,unique,is_constant,min,max,mean,median,std,q1,q3
-subject,str,categorical,1,12.5,7,False,,,,,,,
-marks_grade_obtained,str,categorical,0,0.0,7,False,,,,,,,
-column_3,str,categorical,1,12.5,2,False,,,,,,,
-column_4,str,categorical,1,12.5,6,False,,,,,,,
-column_5,str,categorical,1,12.5,4,False,,,,,,,

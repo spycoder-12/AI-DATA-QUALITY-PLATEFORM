@@ -5,3 +5,5 @@ __pycache__/
 *.db
 uploads/
 *.zip
+data/processed/
+data/reports/

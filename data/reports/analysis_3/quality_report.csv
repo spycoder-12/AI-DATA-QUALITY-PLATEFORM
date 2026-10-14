@@ -1,8 +1,0 @@
-level,item,score,severity,detail
-overall,quality_score,100.0,,Excellent — quality = 0.30*completeness + 0.20*uniqueness + 0.20*validity + 0.15*consistency + 0.15*structure (each dimension 0-100)
-dimension,completeness,100.0,,weight 0.3; 0 missing of 2 cells (0.00%)
-dimension,uniqueness,100.0,,weight 0.2; 0 duplicate rows (0.00%)
-dimension,validity,100.0,,weight 0.2; 0 rows with invalid values (0.00%)
-dimension,consistency,100.0,,weight 0.15; 0 rows with inconsistent values (0.00%)
-dimension,structure,100.0,,weight 0.15; 0 constant column(s) of 1
-column,bulk_edit_items,100.0,,no issues

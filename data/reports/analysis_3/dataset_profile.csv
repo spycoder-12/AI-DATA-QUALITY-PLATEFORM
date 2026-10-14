@@ -1,2 +1,0 @@
-column,dtype,kind,missing,missing_pct,unique,is_constant,min,max,mean,median,std,q1,q3
-bulk_edit_items,str,categorical,0,0.0,2,False,,,,,,,

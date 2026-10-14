@@ -1,5 +1,0 @@
-column,dtype,kind,missing,missing_pct,unique,is_constant,min,max,mean,median,std,q1,q3
-common_university_entrance_test_cuet_ug_2024_confirmation_page,str,categorical,0,0.0,32,False,,,,,,,
-column_2,str,categorical,12,33.33,16,False,,,,,,,
-column_3,str,categorical,13,36.11,18,False,,,,,,,
-column_5,str,categorical,22,61.11,11,False,,,,,,,
