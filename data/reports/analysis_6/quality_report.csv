@@ -1,0 +1,15 @@
+level,item,score,severity,detail
+overall,quality_score,88.54,,Good — quality = 0.30*completeness + 0.20*uniqueness + 0.20*validity + 0.15*consistency + 0.15*structure (each dimension 0-100)
+dimension,completeness,67.36,,weight 0.3; 47 missing of 144 cells (32.64%)
+dimension,uniqueness,91.67,,weight 0.2; 3 duplicate rows (8.33%)
+dimension,validity,100.0,,weight 0.2; 0 rows with invalid values (0.00%)
+dimension,consistency,100.0,,weight 0.15; 0 rows with inconsistent values (0.00%)
+dimension,structure,100.0,,weight 0.15; 0 constant column(s) of 4
+column,common_university_entrance_test_cuet_ug_2024_confirmation_page,100.0,,no issues
+column,column_2,66.67,,33.33% missing
+column,column_3,63.89,,36.11% missing
+column,column_5,38.89,,61.11% missing
+finding,missing_values:column_2,,HIGH,12 missing value(s) (33.3%) in 'column_2'.
+finding,missing_values:column_3,,HIGH,13 missing value(s) (36.1%) in 'column_3'.
+finding,missing_values:column_5,,CRITICAL,22 missing value(s) (61.1%) in 'column_5'.
+finding,duplicate_rows,,MEDIUM,3 exact duplicate row(s) (8.3% of rows).

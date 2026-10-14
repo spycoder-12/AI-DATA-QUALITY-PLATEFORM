@@ -1,0 +1,6 @@
+analysis_id,dataset_id,dataset,timestamp,quality_score,anomaly_count,anomaly_pct,critical_count,drifted_features,risk_score,risk_level,alert_count,decision,status,rows
+5,3,Class-X-Marksheet.pdf,2026-10-14T10:03:04Z,97.0,0,0.0,0,,3.0,LOW,1,DATASET HEALTHY,HEALTHY,8
+7,5,Class-X-Marksheet.pdf,2026-10-14T10:04:47Z,97.0,0,0.0,0,,3.0,LOW,1,DATASET HEALTHY,HEALTHY,8
+8,6,Class-X-Marksheet.pdf,2026-10-14T10:04:55Z,97.0,0,0.0,0,,3.0,LOW,1,DATASET HEALTHY,HEALTHY,8
+9,7,Class-X-Marksheet.pdf,2026-10-14T10:05:02Z,97.0,0,0.0,0,,3.0,LOW,1,DATASET HEALTHY,HEALTHY,8
+10,8,Class-X-Marksheet.pdf,2026-10-14T10:05:11Z,97.0,0,0.0,0,,3.0,LOW,1,DATASET HEALTHY,HEALTHY,8

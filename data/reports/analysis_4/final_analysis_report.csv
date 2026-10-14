@@ -1,0 +1,28 @@
+metric,value
+dataset,Items.csv
+generated_at,2026-10-14T08:51:30Z
+rows,2
+columns,1
+quality_score,100.0
+quality_grade,Excellent
+missing_values,0
+duplicate_rows,0
+invalid_rows,0
+anomaly_count,0
+anomaly_pct,0.0
+anomalies_critical,0
+anomalies_high,0
+anomalies_medium,0
+anomalies_low,0
+drifted_features,Not available — insufficient data
+drift_status,Not available — insufficient data
+active_alerts,0
+trend,STABLE
+forecast_quality,Not available — insufficient data
+forecast_risk,Not available — insufficient data
+risk_score,0.0
+risk_level,LOW
+overall_status,HEALTHY
+priority,P4 - Routine
+decision,DATASET HEALTHY
+recommended_action,No urgent action. Continue routine monitoring.

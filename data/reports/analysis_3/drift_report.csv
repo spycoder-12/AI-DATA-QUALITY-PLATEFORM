@@ -1,0 +1,2 @@
+feature,status,note
+,NOT AVAILABLE,"The reference and current datasets share no column names, so drift cannot be assessed."

@@ -1,0 +1,16 @@
+level,item,score,severity,detail
+overall,quality_score,97.0,,Excellent — quality = 0.30*completeness + 0.20*uniqueness + 0.20*validity + 0.15*consistency + 0.15*structure (each dimension 0-100)
+dimension,completeness,90.0,,weight 0.3; 4 missing of 40 cells (10.00%)
+dimension,uniqueness,100.0,,weight 0.2; 0 duplicate rows (0.00%)
+dimension,validity,100.0,,weight 0.2; 0 rows with invalid values (0.00%)
+dimension,consistency,100.0,,weight 0.15; 0 rows with inconsistent values (0.00%)
+dimension,structure,100.0,,weight 0.15; 0 constant column(s) of 5
+column,subject,87.5,,12.5% missing
+column,marks_grade_obtained,100.0,,no issues
+column,column_3,87.5,,12.5% missing
+column,column_4,87.5,,12.5% missing
+column,column_5,87.5,,12.5% missing
+finding,missing_values:subject,,MEDIUM,1 missing value(s) (12.5%) in 'subject'.
+finding,missing_values:column_3,,MEDIUM,1 missing value(s) (12.5%) in 'column_3'.
+finding,missing_values:column_4,,MEDIUM,1 missing value(s) (12.5%) in 'column_4'.
+finding,missing_values:column_5,,MEDIUM,1 missing value(s) (12.5%) in 'column_5'.

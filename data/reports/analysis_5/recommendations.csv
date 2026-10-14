@@ -1,0 +1,6 @@
+category,severity,priority,target,finding,recommendation,evidence,automated_fix
+Data volume,MEDIUM,P3,dataset,Only 8 row(s) available.,Collect more records before drawing conclusions; machine-learning anomaly detection needs at least 20 rows.,rows = 8,
+Missing values,MEDIUM,P3,subject,1 missing value(s) (12.5%) in 'subject'.,"Consider mode imputation or an explicit 'Unknown' category for 'subject', and check the data-collection step that leaves it blank.",1 missing (12.5%),impute_missing
+Missing values,MEDIUM,P3,column_3,1 missing value(s) (12.5%) in 'column_3'.,"Consider mode imputation or an explicit 'Unknown' category for 'column_3', and check the data-collection step that leaves it blank.",1 missing (12.5%),impute_missing
+Missing values,MEDIUM,P3,column_4,1 missing value(s) (12.5%) in 'column_4'.,"Consider mode imputation or an explicit 'Unknown' category for 'column_4', and check the data-collection step that leaves it blank.",1 missing (12.5%),impute_missing
+Missing values,MEDIUM,P3,column_5,1 missing value(s) (12.5%) in 'column_5'.,"Consider mode imputation or an explicit 'Unknown' category for 'column_5', and check the data-collection step that leaves it blank.",1 missing (12.5%),impute_missing

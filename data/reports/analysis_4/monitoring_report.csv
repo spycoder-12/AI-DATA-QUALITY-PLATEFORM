@@ -1,0 +1,4 @@
+analysis_id,dataset_id,dataset,timestamp,quality_score,anomaly_count,anomaly_pct,critical_count,drifted_features,risk_score,risk_level,alert_count,decision,status,rows
+2,2,Items.csv,2026-10-04T06:12:20Z,100.0,0,0.0,0,,0.0,LOW,0,DATASET HEALTHY,HEALTHY,2
+3,2,Items.csv,2026-10-04T06:12:57Z,100.0,0,0.0,0,,0.0,LOW,0,DATASET HEALTHY,HEALTHY,2
+4,2,Items.csv,2026-10-14T08:51:30Z,100.0,0,0.0,0,,0.0,LOW,0,DATASET HEALTHY,HEALTHY,2

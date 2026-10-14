@@ -1,0 +1,2 @@
+feature,status,note
+,INSUFFICIENT DATA,Insufficient data to assess drift (no feature has enough values in both datasets).

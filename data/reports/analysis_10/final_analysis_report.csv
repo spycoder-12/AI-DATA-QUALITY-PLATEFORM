@@ -1,0 +1,28 @@
+metric,value
+dataset,Class-X-Marksheet.pdf
+generated_at,2026-10-14T10:05:11Z
+rows,8
+columns,5
+quality_score,97.0
+quality_grade,Excellent
+missing_values,4
+duplicate_rows,0
+invalid_rows,0
+anomaly_count,0
+anomaly_pct,0.0
+anomalies_critical,0
+anomalies_high,0
+anomalies_medium,0
+anomalies_low,0
+drifted_features,Not available — insufficient data
+drift_status,INSUFFICIENT DATA
+active_alerts,1
+trend,STABLE
+forecast_quality,97.0
+forecast_risk,3.0
+risk_score,3.0
+risk_level,LOW
+overall_status,HEALTHY
+priority,P4 - Routine
+decision,DATASET HEALTHY
+recommended_action,No urgent action. Continue routine monitoring.

@@ -1,0 +1,28 @@
+metric,value
+dataset,CUET-UG-243551602471-1715500247.pdf
+generated_at,2026-10-14T10:03:21Z
+rows,36
+columns,4
+quality_score,88.54
+quality_grade,Good
+missing_values,47
+duplicate_rows,3
+invalid_rows,0
+anomaly_count,0
+anomaly_pct,0.0
+anomalies_critical,0
+anomalies_high,0
+anomalies_medium,0
+anomalies_low,0
+drifted_features,Not available — insufficient data
+drift_status,Not available — insufficient data
+active_alerts,5
+trend,INSUFFICIENT DATA
+forecast_quality,Not available — insufficient data
+forecast_risk,Not available — insufficient data
+risk_score,23.0
+risk_level,MEDIUM
+overall_status,ATTENTION REQUIRED
+priority,P3 - Planned
+decision,REVIEW BEFORE PRODUCTION USE
+recommended_action,Review the flagged issues and apply the recommended fixes before relying on this dataset.

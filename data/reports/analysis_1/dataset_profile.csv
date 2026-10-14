@@ -1,0 +1,12 @@
+column,dtype,kind,missing,missing_pct,unique,is_constant,min,max,mean,median,std,q1,q3
+index,int64,numeric,0,0.0,1340,False,0.0,1339.0,669.5,669.5,386.969,334.75,1004.25
+patientid,int64,numeric,0,0.0,1340,False,1.0,1340.0,670.5,670.5,386.969,335.75,1005.25
+age,float64,numeric,5,0.37,43,False,18.0,60.0,38.0787,38.0,11.1029,29.0,47.0
+gender,str,categorical,0,0.0,2,False,,,,,,,
+bmi,float64,numeric,0,0.0,275,False,16.0,53.1,30.669,30.4,6.1067,26.275,34.7
+bloodpressure,int64,numeric,0,0.0,61,False,80.0,140.0,94.1575,92.0,11.4347,86.0,99.0
+diabetic,str,boolean,0,0.0,2,False,,,,,,,
+children,int64,numeric,0,0.0,6,False,0.0,5.0,1.0933,1.0,1.2053,0.0,2.0
+smoker,str,boolean,0,0.0,2,False,,,,,,,
+region,str,categorical,3,0.22,4,False,,,,,,,
+claim,float64,numeric,0,0.0,1337,False,1121.87,63770.43,13252.7456,9369.615,12109.6093,4719.685,16604.305
